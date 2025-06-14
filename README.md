@@ -41,11 +41,10 @@ La dashboard offre grafici interattivi (realizzati con Plotly) per analizzare l'
 
 ![image](https://github.com/user-attachments/assets/5cf0e1eb-887a-4c01-944a-d59ec7f9baf5)
 
-### 3. Drill-Down su Singoli NFT e Navigazione
+### 3. Esplorazione del singolo NFT
 
 Per consentire un'analisi granulare, un menù a tendina interattivo (`st.selectbox`) permette di selezionare un singolo NFT all'interno della collezione. Da qui, l'utente può navigare direttamente alle pagine di analisi dei **wallet del creatore o dell'ultimo proprietario**, creando un percorso di esplorazione dei dati fluido e interconnesso.
 
-Successivamente viene mostrata la lista degli NFT all'interno della collezione selezionata (`@st.selectbox`) con la possibilità di navigare verso la pagina inerente il Wallet del creatore del NFT o dell'ultimo compratore.
 ![image](https://github.com/user-attachments/assets/8c972acc-2c0a-4fdd-8f07-26d239589c83)
 
 ### 4. Esplorazione dei Wallet e delle Transazioni
@@ -54,7 +53,9 @@ Una volta navigato a una pagina Wallet, l'interfaccia utilizza le **Streamlit Ta
 
 ![image](https://github.com/user-attachments/assets/bc6cf317-d9cc-4aa9-a962-3f00737455d6)
 
-Le sezioni finali presentano analisi dettagliate sui guadagni e sulle transazioni specifiche del wallet, dimostrando la capacità di creare viste complesse e ricche di informazioni.e.
+### 5. Riepilogo Finanziario e Asset del Wallet
+
+Le schede finali forniscono un riepilogo finanziario cruciale. Vengono presentate in tabelle chiare e ordinate le transazioni di acquisto e vendita, gli NFT attualmente posseduti e, soprattutto, i **guadagni netti** realizzati dal wallet, sintetizzando la performance economica dell'account.
 
 ![image](https://github.com/user-attachments/assets/950cbae4-a492-4394-bcae-33fd90462fb9)
 
@@ -70,7 +71,7 @@ Per motivi di privacy e dipendenza da API private dell'ambiente di ricerca unive
 
 Per un'analisi approfondita della metodologia e dei risultati, sono disponibili la tesi completa e le slide di presentazione.
 
-* **[Scarica la Tesi di Laurea (PDF)](./Tesi_Completa_Cristian_Marras.pdf)** *(sostituisci con il nome corretto)*
+* **[Scarica la Tesi di Laurea (PDF)](./Tesi.pdf)**
 * **[Scarica le Slide della Presentazione (PDF)](./Presentazione tesi.pdf)**
 
 ## 📧 Contatti
